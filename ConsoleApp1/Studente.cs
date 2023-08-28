@@ -17,7 +17,20 @@ namespace ConsoleApp1
                 return 5 - AnniTrascorsi;
             }
         }
+        public string Nome { get; set; }
+        public string Cognome {get; set; }
+        public string Matematica{ get; set; }
+        public string Italiano {get; set; }
+        public string Inglese { get; set; }
 
-     
+        public Studente(string matematica, string italiano, string inglese)
+        {
+            Matematica = matematica;
+            Italiano = italiano;
+            Matematica = inglese;
+           
+        }
+
+
     }
 }
