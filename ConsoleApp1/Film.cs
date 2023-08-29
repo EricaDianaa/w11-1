@@ -17,6 +17,6 @@ namespace ConsoleApp1
             Titolo = titolo;
             Genere = genere;
             Anno = anno;
-        }   
+        }
     }
 }

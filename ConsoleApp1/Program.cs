@@ -44,7 +44,9 @@ namespace w11
 
             Console.WriteLine(" ");
             Console.Write("Sono al " + studente.AnniTrascorsi + " ° anno di università" );
+            Console.WriteLine(" ");
             Console.Write("Per finire la scuola ti mancano " + studente.AnniMancanti +" anni");
+            Console.WriteLine(" ");
             Console.WriteLine(studente.Nome);
             Console.WriteLine(studente.Cognome);
             Console.WriteLine(studente.Matematica);
